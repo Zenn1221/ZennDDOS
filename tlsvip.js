@@ -1,11 +1,11 @@
- const net = require("net");
- const http2 = require("http2");
- const tls = require("tls");
- const cluster = require("cluster");
- const url = require("url");
- const crypto = require("crypto");
- const fs = require("fs");
- const gradient = require ("gradient-string");
+import net from "net";
+import http2 from "http2";
+import tls from "tls";
+import cluster from "cluster";
+import url from "url";
+import crypto from "crypto";
+import fs from "fs";
+import gradient from "gradient-string";
    var privacyPassSupport = true;
  
   lang_header = [     "he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7",
