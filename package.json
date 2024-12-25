@@ -1,0 +1,32 @@
+{
+  "name": "zenn-ddos",
+  "version": "1.0.0",
+  "description": "Project ZennDDOS untuk edukasi dan pengujian keamanan jaringan.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zenn1221/ZennDDOS.git"
+  },
+  "keywords": [
+    "ddos",
+    "network",
+    "security",
+    "tool"
+  ],
+  "author": "Zenn",
+  "license": "MIT",
+  "dependencies": {
+    "readline": "^1.3.0",
+    "tls": "0.0.1",
+    "http2": "^3.0.0",
+    "net": "1.0.2",
+    "crypto": "1.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
